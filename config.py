@@ -14,7 +14,7 @@ class Rkn_Bots(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     #start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/a5ac411e17ac65f7b775c.jpg")
 
 
     # wes response configuration
@@ -28,7 +28,14 @@ class Rkn_Bots(object):
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
-                             "<b><a href='telegram.me/Rkn_Bots'>{file_name} Telegram : @RknDeveloper\n\nForward the file before Downloading.</a></b>",
+                             "<b>@rb1official </b> <code>{file_name}</code><b>
+╭─────── • ◆ • ───────╮
+✪ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ:  <a href="https://t.me/rb1official">ғʀᴏᴍ ʜᴇʀᴇ</a> ✪
+╰─────── • ◆ • ───────╯
+=========== • ✠ • ===========
+▫️ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇ : <a href="https://t.me/requestbox1officialofficial">ʜᴇʀᴇ</a>
+▫️ sᴜᴘᴘᴏʀᴛ : @helpsarthak_bot
+=========== • ✠ • ===========</b>",
     )
 
     #sticker Id
