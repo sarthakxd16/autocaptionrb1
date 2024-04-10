@@ -61,12 +61,12 @@ async def start_cmd(bot, message):
     user_id = int(message.from_user.id)
     await insert(user_id)
     await message.reply_photo(photo=Rkn_Bots.RKN_PIC,
-        caption=f"<b>Hey, {message.from_user.mention}\n\nI'm an auto-caption bot. I automatically edit captions for videos, audio files, and documents posted on channels.\n\nuse <code>/set_caption</code> to set caption\nUse<code>/delcaption</code> To delete caption and set caption to default.\n\nNote:All commands works on channels only</b>",
+        caption=f"<b>Hey, {message.from_user.mention}\n\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ-ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ. ɪ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴇᴅɪᴛ ᴄᴀᴘᴛɪᴏɴꜱ ꜰᴏʀ ᴠɪᴅᴇᴏꜱ, ᴀᴜᴅɪᴏ ꜰɪʟᴇꜱ, ᴀɴᴅ ᴅᴏᴄᴜᴍᴇɴᴛꜱ ᴘᴏꜱᴛᴇᴅ ᴏɴ ᴄʜᴀɴɴᴇʟꜱ.\n\nᴜꜱᴇ <code>/set_caption</code> ᴛᴏ ꜱᴇᴛ ᴄᴀᴘᴛɪᴏɴ\nᴜꜱᴇ<code>/delcaption</code> ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴄᴀᴘᴛɪᴏɴ ᴀɴᴅ ꜱᴇᴛ ᴄᴀᴘᴛɪᴏɴ ᴛᴏ ᴅᴇꜰᴀᴜʟᴛ.\n\nɴᴏᴛᴇ:ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ ᴡᴏʀᴋꜱ ᴏɴ ᴄʜᴀɴɴᴇʟꜱ ᴏɴʟʏ\n\n\n✯ ᴍᴀɴᴀɢᴇᴅ ʙʏ : <a href='https://t.me/rb1bots'>#ʀᴇǫᴜᴇsᴛʙᴏx1 ❤</a></b>",
         reply_markup=types.InlineKeyboardMarkup([[
-            types.InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/RknDeveloper'),
-            types.InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Rkn_Bots_Support')
+            types.InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url='https://t.me/requestbox1official'),
+            types.InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url='https://t.me/helpsarthak_bot)
             ],[
-            types.InlineKeyboardButton('🔥 Source Code 🔥', url='https://github.com/RknDeveloper/Rkn-AutoCaptionBot')
+            types.InlineKeyboardButton('📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ', url='https://t.me/requestbox1')
     ]]))
     
 
