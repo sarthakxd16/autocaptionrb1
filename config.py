@@ -14,7 +14,7 @@ class Rkn_Bots(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     #start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/a5ac411e17ac65f7b775c.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/e630eb748f7955d92c69a.jpg https://graph.org/file/3d6214e88828b2bb4caa0.jpg https://graph.org/file/5f62fb444889d8f393c23.jpg https://graph.org/file/f6894089b82ff6b36a552.jpg")
 
 
     # wes response configuration
@@ -43,9 +43,3 @@ class Rkn_Bots(object):
 
     #admin id
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    
-
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
