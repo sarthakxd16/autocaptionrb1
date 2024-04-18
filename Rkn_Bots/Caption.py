@@ -63,8 +63,8 @@ async def start_cmd(bot, message):
     await message.reply_photo(photo=Rkn_Bots.RKN_PIC,
         caption=f"<b>Hey, {message.from_user.mention}\n\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ-ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ. ɪ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴇᴅɪᴛ ᴄᴀᴘᴛɪᴏɴꜱ ꜰᴏʀ ᴠɪᴅᴇᴏꜱ, ᴀᴜᴅɪᴏ ꜰɪʟᴇꜱ, ᴀɴᴅ ᴅᴏᴄᴜᴍᴇɴᴛꜱ ᴘᴏꜱᴛᴇᴅ ᴏɴ ᴄʜᴀɴɴᴇʟꜱ.\n\nᴜꜱᴇ <code>/set_caption</code> ᴛᴏ ꜱᴇᴛ ᴄᴀᴘᴛɪᴏɴ\nᴜꜱᴇ<code>/delcaption</code> ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴄᴀᴘᴛɪᴏɴ ᴀɴᴅ ꜱᴇᴛ ᴄᴀᴘᴛɪᴏɴ ᴛᴏ ᴅᴇꜰᴀᴜʟᴛ.\n\nɴᴏᴛᴇ:ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ ᴡᴏʀᴋꜱ ᴏɴ ᴄʜᴀɴɴᴇʟꜱ ᴏɴʟʏ\n\n\n✯ ᴍᴀɴᴀɢᴇᴅ ʙʏ : <a href='https://t.me/rb1bots'>#ʀᴇǫᴜᴇsᴛʙᴏx1 ❤</a></b>",
         reply_markup=types.InlineKeyboardMarkup([[
-            types.InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url='https://t.me/rb1bots'),
-            types.InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url='https://t.me/helpsarthak_bot')
+            types.InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/rb1bots'),
+            types.InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ', url='https://t.me/helpsarthak_bot')
             ],[
             types.InlineKeyboardButton('📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ', url='https://t.me/requestbox1')
     ]]))
