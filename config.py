@@ -28,14 +28,7 @@ class Rkn_Bots(object):
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
-                             "<b>@rb1official </b> <code>{file_name}</code><b>
-╭────── • ◆ • ──────╮
-✪ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ:  <a href="https://t.me/rb1official">ʜᴇʀᴇ</a> ✪
-╰────── • ◆ • ──────╯
-=========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/requestbox1officialofficial">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-▫️ sᴜᴘᴘᴏʀᴛ : <a href="https://t.me/helpsarthak_bot">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-=========== • ✠ • ===========</b>",
+                             "<b><a href='telegram.me/RB1OFFICIAL'>{file_name} Telegram : @Requestbox1official\n\nForward the file before Downloading.</a></b>",
     )
 
     #sticker Id
