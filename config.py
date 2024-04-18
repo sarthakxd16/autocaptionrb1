@@ -14,7 +14,7 @@ class Rkn_Bots(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     #start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/e630eb748f7955d92c69a.jpg https://graph.org/file/3d6214e88828b2bb4caa0.jpg https://graph.org/file/5f62fb444889d8f393c23.jpg https://graph.org/file/f6894089b82ff6b36a552.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/e630eb748f7955d92c69a.jpg https://graph.org/file/3d6214e88828b2bb4caa0.jpg https://graph.org/file/5f62fb444889d8f393c23.jpg https://graph.org/file/176a6665a01c00cae8486.jpg https://graph.org/file/f6894089b82ff6b36a552.jpg https://graph.org/file/f880ed039bd0a8b504369.jpg")
 
 
     # wes response configuration
@@ -29,17 +29,17 @@ class Rkn_Bots(object):
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
                              "<b>@rb1official </b> <code>{file_name}</code><b>
-╭─────── • ◆ • ───────╮
-✪ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ:  <a href="https://t.me/rb1official">ғʀᴏᴍ ʜᴇʀᴇ</a> ✪
-╰─────── • ◆ • ───────╯
+╭────── • ◆ • ──────╮
+✪ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ:  <a href="https://t.me/rb1official">ʜᴇʀᴇ</a> ✪
+╰────── • ◆ • ──────╯
 =========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇ : <a href="https://t.me/requestbox1officialofficial">ʜᴇʀᴇ</a>
-▫️ sᴜᴘᴘᴏʀᴛ : @helpsarthak_bot
+▫️ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/requestbox1officialofficial">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+▫️ sᴜᴘᴘᴏʀᴛ : <a href="https://t.me/helpsarthak_bot">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 =========== • ✠ • ===========</b>",
     )
 
     #sticker Id
-    STICKER_ID = os.environ.get("STICKER_ID", "CAACAgIAAxkBAAELFqBllhB70i13m-woXeIWDXU6BD2j7wAC9gcAAkb7rAR7xdjVOS5ziTQE")
+    STICKER_ID = os.environ.get("STICKER_ID", "CAACAgUAAxkBAANCZh_bHUtmwoy2Q4pcJYqGyYD0uoIAApYDAALmW2hXq6HNrY1bPaceBA")
 
     #admin id
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
